@@ -1,5 +1,5 @@
 html,body{height:100%;}
-.container{height:100%;background:url("images/bg.jpg") no-repeat center;background-size: 100% 100%;}
+.container{height:100%;background:url("bg.jpg") no-repeat center;background-size: 100% 100%;}
 .title{width:451px;height:181px;position: absolute;left: 50%; top: 52px;z-index:10;transform:translateX(-50%);-webkit-transform:translateX(-50%); background: url("lottery_draw_title.png")  no-repeat;background-size: 100% 100%;}
 .lottery_draw_wrap { position: absolute;width: 584px; height: 584px;top:300px;left: 50%;transform:translateX(-50%);-webkit-transform:translateX(-50%); background: url("lottery_draw.png")  no-repeat;background-size: 100% 100%;}
 .lottery_draw_wrap .lottery_draw{
