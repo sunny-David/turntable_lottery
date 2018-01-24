@@ -1,0 +1,85 @@
+﻿@charset "utf-8";
+/*移动全局css*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,capti
+on,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:none;outline:0;font-size:100%;font:inherit;vertical-align:baseline;}
+html,body,form,fieldset,p,div,h1,h2,h3,h4,h5,h6{-webkit-text-size-adjust:none;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,div{display:block;}
+body{font-family: "微软雅黑","Microsoft Yahei", Georgia, "Times New Roman", Times, serif,"宋体"; font-size:100%; vertical-align:middle; background:#fff;text-align: center}
+ol,ul,li{ list-style-type:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+ins{text-decoration:none;}
+del{text-decoration:line-through;}
+table{border-collapse:collapse;border-spacing:0;}
+a{text-decoration:none; color:#000000;}
+input{border:none;background-color:transparent;}
+.txt-rt{text-align:right;}
+.txt-lt{text-align:left;}
+.txt-center{text-align:center;}
+.frt{float:right;}
+.flt{float:left;}
+.clear{clear:both;}
+.pos-relative{position:relative;}
+.pos-absolute{position:absolute;}
+.vertical-base{	vertical-align:baseline;}
+.vertical-top{	vertical-align:top;}
+.underline{	padding-bottom:5px;	border-bottom: 1px solid #eee; margin:0 0 20px 0;}
+nav.vertical ul li{	display:block;}
+nav.horizontal ul li{	display: inline-block;}
+img{ max-width:100%; height:auto;display: block;}
+.clearfix:after { content:" "; display:block; clear:both; height:0; }
+.clearfix { zoom:1; }
+.btn:hover { filter:alpha( opcity=80 ); -moz-opacity:0.8; opacity:0.8; cursor:pointer;}
+a:hover { text-decoration:underline;}
+.redlink a {  text-decoration:none; font-size:14px;}
+.redlink a:hover { color:#a60303; text-decoration:underline;}
+
+body{ background-color:#f8f8f9;}
+
+.container{ max-width:750px;margin: 0 auto; position:relative;text-align: center}
+.block{ display:block !important; margin:0 auto;}
+img{ display:block;}
+
+.inner{margin:0 auto;}
+input{border:none;}
+.show{display: block}
+.hide{display: none}
+/*footer*/
+/*音乐播放按钮*/
+#audio_btn {
+    background-repeat: no-repeat;
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    z-index: 200;
+	background-image: url("../images/video.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+	cursor:pointer;
+}
+/*音乐播放动画*/
+@-webkit-keyframes rotate{
+	from{
+		transform:rotate(0deg);-ms-transform:rotate(0deg); /* IE 9 */-webkit-transform:rotate(0deg); /* Safari and Chrome */
+	}
+	to{
+		transform:rotate(360deg);-ms-transform:rotate(360deg); /* IE 9 */-webkit-transform:rotate(360deg); /* Safari and Chrome */
+	}
+ 
+}
+@keyframes rotate{
+	from{
+		transform:rotate(0deg);-ms-transform:rotate(0deg); /* IE 9 */-webkit-transform:rotate(0deg); /* Safari and Chrome */
+	}
+	to{
+		transform:rotate(360deg);-ms-transform:rotate(360deg); /* IE 9 */-webkit-transform:rotate(360deg); /* Safari and Chrome */
+	}
+ 
+}
+.rotate{
+animation: rotate 2s linear infinite;
+-webkit-animation: rotate 2s linear infinite; /* Safari and Chrome */
+}
+
