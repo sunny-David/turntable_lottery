@@ -1,7 +1,7 @@
 html,body{height:100%;}
-.container{height:100%;background:url("../images/bg.jpg") no-repeat center;background-size: 100% 100%;}
-.title{width:451px;height:181px;position: absolute;left: 50%; top: 52px;z-index:10;transform:translateX(-50%);-webkit-transform:translateX(-50%); background: url("../images/lottery_draw_title.png")  no-repeat;background-size: 100% 100%;}
-.lottery_draw_wrap { position: absolute;width: 584px; height: 584px;top:300px;left: 50%;transform:translateX(-50%);-webkit-transform:translateX(-50%); background: url("../images/lottery_draw.png")  no-repeat;background-size: 100% 100%;}
+.container{height:100%;background:url("images/bg.jpg") no-repeat center;background-size: 100% 100%;}
+.title{width:451px;height:181px;position: absolute;left: 50%; top: 52px;z-index:10;transform:translateX(-50%);-webkit-transform:translateX(-50%); background: url("lottery_draw_title.png")  no-repeat;background-size: 100% 100%;}
+.lottery_draw_wrap { position: absolute;width: 584px; height: 584px;top:300px;left: 50%;transform:translateX(-50%);-webkit-transform:translateX(-50%); background: url("lottery_draw.png")  no-repeat;background-size: 100% 100%;}
 .lottery_draw_wrap .lottery_draw{
     width: 100%;
     height: 100%;
@@ -9,7 +9,7 @@ html,body{height:100%;}
     top:0;
     left:0;
 }
-.plateBtn { position: absolute; left:172px; top: 170px;z-index: 20; width: 245px; height: 245px; background: url("../images/plate.png") no-repeat;background-size: 100% 100%; text-indent: -9999px; overflow: hidden;}
+.plateBtn { position: absolute; left:172px; top: 170px;z-index: 20; width: 245px; height: 245px; background: url("plate.png") no-repeat;background-size: 100% 100%; text-indent: -9999px; overflow: hidden;}
 .lottery_draw_wrap .tree{
     display: block;
     width: 576px;
@@ -24,13 +24,13 @@ html,body{height:100%;}
     position: absolute;
     top:900px;
     left:110px;
-    background: url("../images/reg.png") no-repeat center;
+    background: url("reg.png") no-repeat center;
     background-size: 100% 100%;
 }
 
 .pop{width:100%;height:100%;position: absolute;top:0;left:0;z-index:10000;background-color: rgba(0,0,0,0.7);}
 
-.apply{width:640px;height:440px;border-radius:60px;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);background: url("../images/apply_bg.png") no-repeat center;background-size: 100% 100%;}
+.apply{width:640px;height:440px;border-radius:60px;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);background: url("apply_bg.png") no-repeat center;background-size: 100% 100%;}
 .apply .draw_info{
     font-size: 40px;
     padding-top: 60px;
@@ -46,7 +46,7 @@ html,body{height:100%;}
     position: absolute;
     top:35px;
     right:35px;
-    background: url("../images/close_btn.png") no-repeat center;
+    background: url("close_btn.png") no-repeat center;
     background-size: 100% 100%;
 }
 .support{width:189px;height:24px;position: absolute;bottom: 48px;left:50%;transform:translateX(-50%);-webkit-transform:translateX(-50%);}
